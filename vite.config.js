@@ -13,6 +13,7 @@ export default defineConfig({
                 'resources/js/main.jsx',
                 'resources/js/login.jsx',
                 'resources/js/register.jsx',
+                'resources/js/dashboard.jsx',
             ],
             refresh: true,
             fonts: [

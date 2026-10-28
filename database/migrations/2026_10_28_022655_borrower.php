@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('borrower', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('book_id')->constrained('books');
+            $table->foreignId('book_id')->unique()->constrained('books');
             $table->foreignId('user_id')->constrained('users');
         });
     }
