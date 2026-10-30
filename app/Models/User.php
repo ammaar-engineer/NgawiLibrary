@@ -37,6 +37,7 @@ class User extends Authenticatable
             'password' => 'hashed',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
+            'role' => 'string',
         ];
     }
 }
